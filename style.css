@@ -1,7 +1,7 @@
 :root {
-    --text-color: #dbe4ef;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #fafafa;
+    --card-front-color: #47102a;
+    --card-back-color: #f1fffc;
 }
 
 
@@ -73,11 +73,13 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(0, 244, 191, 0.2);
+    background-color: rgba(255, 154, 221, 0.2);
+    border:4px solid rgb(167, 20, 135)
 }
 
 
@@ -87,7 +89,7 @@ body{
 
 
 footer {
-    background-color: black;
+    background-color: rgb(255, 248, 248);
     color:white;
     position: fixed;
     bottom: 0;
